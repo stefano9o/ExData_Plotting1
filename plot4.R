@@ -44,6 +44,6 @@ legend("topright", # places a legend at the appropriate place
        lty=c(1,1), # gives the legend appropriate symbols (lines)
        bty="n",
        col=c("black","red","blue")) # gives the legend lines the correct color and width
-with(df,plot(Date_time,Global_reactive_power, ylab = "Voltage",type="l",col = "black",xlab ="datetime"))
+with(df,plot(Date_time,Global_reactive_power, ylab = "Global_reactive_power",type="l",col = "black",xlab ="datetime"))
 
 dev.off() 
